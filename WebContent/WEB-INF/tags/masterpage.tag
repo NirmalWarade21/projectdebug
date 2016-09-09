@@ -12,10 +12,10 @@
 </head>
 <body>
 
-	<div class="div1" >
-		<img src="Images/debug.jpg" alt="projectDebug logo" height="60" width="120" align="top">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<input type ="text" class="search" name= "searchQAandArticle" placeholder="search QA and Articles"  >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-
+	<div class="topbar" >
+		<img src="Images/debug.jpg" alt="projectDebug logo" height="60" width="120" align="top"><input type ="text" class="search" name= "searchQAandArticle" placeholder="search QA and Articles"  > 
+		<a href="default.jsp" class="topbarLink">Sign Up</a>
+		<a href="default.jsp" class="topbarLink">Sign In</a>
 		<div class="dropdown">
 		<button onclick="myFunction()" class="dropbtn">Help</button>
   			<div id="myDropdown" class="dropdown-content">
@@ -24,6 +24,7 @@
     			<a href="#contact">Contact Us</a>
   			</div>
 		</div>
+		
 	</div>
 	<br><jsp:invoke fragment ="content"></jsp:invoke>
 	<br>
